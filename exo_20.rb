@@ -19,9 +19,9 @@ numberOfHash = 1
 while numberOfHash < etages 
     if etages >= 25 && etages <= 1
         puts "Erreur, choisissez un nombre entre 1 et 25"
-    else
-    etages.times
-    puts "# " * numberOfHash
-    numberOfHash += 1
+    else        
+        etages.times
+        puts "# " * numberOfHash
+        numberOfHash += 1
     end
 end
